@@ -82,7 +82,11 @@ const replies = [
   "밥 뭐먹지",
   "집가고싶음",
   "ㅇㅇ",
-  "미친",
+  "헉",
+  "그래",
+  "아니",
+  "아 웃겨",
+  "좋아",
 ];
 
 function simulateFriendMessage() {
