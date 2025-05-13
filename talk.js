@@ -7,6 +7,12 @@ const fileBtn = document.getElementById("file-btn");
 const fileUpload = document.getElementById("file-upload");
 const imageUpload = document.getElementById("image-upload");
 
+if (backBtn) {
+  backBtn.addEventListener("click", () => {
+    window.location.href = "index.html";
+  });
+}
+
 function saveChat() {
   localStorage.setItem("chat", chatBox.innerHTML);
 }
