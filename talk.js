@@ -6,6 +6,7 @@ const typingBubble = document.createElement("div");
 const fileBtn = document.getElementById("file-btn");
 const fileUpload = document.getElementById("file-upload");
 const imageUpload = document.getElementById("image-upload");
+const backBtn = document.querySelector(".back-btn");
 
 if (backBtn) {
   backBtn.addEventListener("click", () => {
