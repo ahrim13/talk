@@ -9,7 +9,7 @@ const imageUpload = document.getElementById("image-upload");
 
 if (backBtn) {
   backBtn.addEventListener("click", () => {
-    window.location.href = "index.html";
+    window.location.href = "./index.html";
   });
 }
 
