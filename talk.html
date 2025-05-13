@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Messenger</title>
+    <link rel="stylesheet" href="talk.css" />
+  </head>
+  <body>
+    <img class="background" src="imgs/background.png" />
+    <div class="container">
+      <div class="header">
+        <button class="back-btn">
+          <img src="imgs/left-arrow.png" width="30" height="30" />
+        </button>
+        <img
+          class="profile-pic"
+          src="imgs/profile.png"
+          width="40"
+          height="40"
+        />
+        <div class="info-block">
+          <p class="username">친구</p>
+          <p class="status">1시간 전에 활동</p>
+        </div>
+
+        <div class="call-box">
+          <button>
+            <img src="imgs/phone-call.png" width="20" height="20" />
+          </button>
+          <button>
+            <img src="imgs/video-call.png" width="20" height="20" />
+          </button>
+        </div>
+      </div>
+
+      <div id="chat-box">
+        <div class="bubble friend-bubble">야 머함</div>
+      </div>
+
+      <div class="footer">
+        <textarea
+          id="input"
+          placeholder="메시지를 입력하세요..."
+          autofocus="true"
+        ></textarea>
+
+        <div class="btn-box">
+          <button id="file-btn" title="파일 보내기">
+            <img src="imgs/file.png" alt="파일 아이콘" width="24" height="24" />
+          </button>
+          <button id="send">
+            <img src="imgs/send.png" width="24" height="24" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <input type="file" id="file-upload" style="display: none" />
+    <input
+      type="file"
+      id="image-upload"
+      accept="image/*"
+      style="display: none"
+    />
+    <script src="talk.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Messenger</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img class="background" src="imgs/background.png" />
+    <div class="container">
+      <h2 class="title">친구 만들기</h2>
+
+      <form id="friend-form">
+        <label for="friend-image" class="image-label">
+          <div class="profile-preview" id="profile-preview">+</div>
+        </label>
+        <input type="file" id="friend-image" accept="image/*" required hidden />
+
+        <input type="text" id="friend-name" placeholder="친구 이름" required />
+        <button type="submit">채팅 시작하기</button>
+      </form>
+    </div>
+
+    <script src="friend.js"></script>
+  </body>
+</html>
